@@ -113,7 +113,7 @@ int main() {
 
     if (densidadePopulacional < densidadePopulacional2) {
         printf("Densidade Populacional: Carta 1 venceu\n");
-    } else if (densidadePopulacional < densidadePopulacional2) {
+    } else if (densidadePopulacional2 < densidadePopulacional) {
         printf("Densidade Populacional: Carta 2 venceu\n");
     } else {
         printf("Densidade Populacional: Empate\n");
